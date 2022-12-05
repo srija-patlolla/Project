@@ -1,0 +1,145 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HISTORY</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" >
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+          *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    #navbar{
+        position: sticky;
+        top:0;
+        left: 0;
+        z-index: 100;
+        padding: .5rem 5rem;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+        background-color: black;
+    }
+    .navbar .navbar-brand{
+        font-size: 25px;
+        font-weight: 800;
+        color: rgb(181, 225, 240)
+    }
+    #navbarSupportedContent a{
+      color: #fff;
+      border-bottom: 2px solid transparent;
+    }
+    #navbarSupportedContent a:hover{
+      border-bottom: 2px solid rgb(181, 225, 240);
+    }
+    #navbarSupportedContent button{
+      background: rgb(181, 225, 240);
+      width: 5rem;
+      border-radius: 15px;
+    }
+    section{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #Home{
+      background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://i.etsystatic.com/23503281/r/il/46551f/2372800166/il_fullxfull.2372800166_nzby.jpg);
+      background-size: cover;
+      background-position: center;
+      flex-direction: column;
+    }
+    #Home h1{
+      font-size: 100px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 0px 1px 0px #CCC,
+      0px 2px 0px #CCC,
+      0px 3px 0px #CCC,
+      0px 4px 0px #CCC,
+      0px 5px 0px #CCC,
+      0px 6px 0px #CCC;
+    }
+    h4{
+      color:white;
+    }
+    #Home .input-group{
+      width: 40%;
+      height: 45px;
+    }
+    .signin{
+      background: rgb(181, 225, 240);
+      color: white;
+      box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    }
+    #brands{
+      background: #c4d7e0;
+    }
+    #brands h1{
+      font-size: 50px;
+      font-weight: 700;
+    }
+    #brands img{
+      width: 200px;
+      height: 200px;
+    }
+    .card{
+      width: 250px;
+      height: 300px;
+      background: #c4d7e0;
+      border: none;
+      box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                  inset 4px 4px 10px white;
+      border-radius: 20px ;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 60px;
+      transition: .2s;
+    }
+    .card:hover{
+      box-shadow: inset 5px 5px rgba(0,0,0,.3),
+                  inset -4px -4px 10px white;
+                  transition: .2s;
+    }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">HISTORY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#Home">Home </a>
+                </li>
+
+
+                </ul> 
+            <form action="/SignUp" method="get">
+              <button class="btn p-2 my-lg-0 my-2" type="submit">Sign Up</button>
+            </form>&nbsp;&nbsp;&nbsp;&nbsp;
+            <form action="/signin" method="get">
+              <button class="btn p-2 my-lg-0 my-2" type="submit">Login</button>
+            </form>
+          </div>
+          </nav>
+
+          <section id="Home">
+                   <h1>HISTORY EVENTS</h1>
+
+          </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+    </body>
+    </html>

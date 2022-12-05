@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <style type="text/css">
+            body{
+                padding-top: 150px;
+                background-color: rgb(204, 242, 221);
+            }
+            .form-signup{
+                margin: auto;
+                max-width: 400px;
+                background-color: rgb(243, 245, 247);
+                padding: 15px;
+            }
+            .form-signup h2{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+            <form action="/signupsubmit" class="form-signup" method="get">
+                <h2 color="white">Sign Up</h2>
+
+                <div class="form-group">
+                    <label>FirstName</label>
+                    <input type="text" class="form-control" required  name="fullname" id="name" placeholder="FullName" >
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control"  required name="email" id="email" placeholder="Email" >
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" required name="pwd" id="pwd" placeholder="Password">
+                </div>
+                <input type="submit"   class="btn btn-success btn-block" name="submit" value="submit">
+            </form>
+
+    </body>
+</html>
